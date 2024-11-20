@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Creative</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fav icon Is The Icon That Appear Beside Website Title on Browser -->
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/Styles.CSS" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container container-sm header-flex">
+        <img src="Images/logo.png" alt="Lumina Creative Logo" class="logo" />
+        <nav>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero bg-dark">
+      <div class="container container-sm">
+        <h2>
+          <span class="bg-primary">Enthusiastic</span> thinkers, creating unique
+          endeavors powered by <span class="bg-primary">creativity</span>
+        </h2>
+      </div>
+    </section>
+    <!-- Contact US Section -->
+    <section class="contact">
+      <div class="container container-sm">
+        <h2 class="section-heading">Contact US</h2>
+        <p>
+          Have a question? Leave your information below and we will get back to
+          you as soon as possible.
+        </p>
+        <form>
+          <div class="form-group">
+            <!-- You Need To Leave a label if you want use it and hidding it so screan readers can read it while hidden -->
+            <label for="first-name" hidden>First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="form-group">
+            <!-- You Need To Leave a label if you want use it and hidding it so screan readers can read it while hidden -->
+            <label for="last-name" hidden>Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="form-group">
+            <!-- You Need To Leave a label if you want use it and hidding it so screan readers can read it while hidden -->
+            <label for="email" hidden>Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="form-group">
+            <!-- You Need To Leave a label if you want use it and hidding it so screan readers can read it while hidden -->
+            <label for="message" hidden>Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-flex">
+        <img src="Images/logo.png" alt="Lumina Creative" />
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>(555) 555-5555</li>
+            <li>Contact@Lumina.test</li>
+            <li>10 Main st Boston MA</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+          <a href="#"><i class="fab fa-tumblr fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
